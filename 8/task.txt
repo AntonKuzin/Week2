@@ -1,0 +1,15 @@
+﻿Obi-Wan Kenobi is one of the last Jedi Knights. Obi-Wan is from the Stewjon planet, where absolutely everyone loves when everything is in the right order. Of course, Obi-Wan is no exception.
+ 
+In all Star Wars episodes Obi-Wan Kenobi uses a blue lightsaber, but only few people know that he in fact has many lightsabers, and all of them are numbered. Obi-Wan stores all his lightsabers on a very long table. When he needs one, he takes the rightmost one from the table and goes putting the Galaxy to the right. Obi-Wan uses this lightsaber until he loses or breaks it.
+ 
+Sometimes somebody grants Obi-Wan Kenobi with a new lightsaber, in this case he just puts it to the right of all other lightsabers. But the most frightening thing happens when Obi Wan’s mum comes to the table. His mum is also an inhabitant of Stewjon, so she always gets angry on the lightsabers, which are always out of order. To ﬁx it, she takes the left half of all the lightsabers (if there is an odd amount of lightsabers lying on the table, she takes the smallest number of them which does not exceed a half of their amount) and puts them, one by one, to the right of the remaining ones. First she puts the lightsaber which was the leftmost one, next – the next leftmost one, and so on.
+ 
+Given the list of changes, determine in which order the Obi-Wan Kenobi’s lightsabers currently lay. Every lightsaber has a number which is known to Obi-Wan only – and, of course, to you.
+Input
+The ﬁrst line of the input ﬁle contains N (1 ≤ N ≤ 106) – the number of changes that happened with Obi-Wan’s lightsabers. The following N lines contain the descriptions of the changes, one by line, in the following format:
+add x: this means that somebody granted Obi-Wan with a lightsaber number x (1 ≤ x ≤ n). It is guaranteed that nobody has previously granted Obi-Wan with a lightsaber with this number, and that such an event will never happen in the future.
+take: this means that Obi-Wan took the rightmost lightsaber with him. It is guaranteed that before this event at least one lightsaber existed on the table.
+mum!: this means that Obi-Wan’s mum came to the table and applied some order to it.
+Initially the table was empty.
+Output
+Output the number of lightsabers currently in possession of Obi-Wan Kenobi in the ﬁrst line of the output ﬁle. The next line should contain the numbers of these lightsabers, from left to right. Every two subsequent numbers should be separated by a single whitespace.

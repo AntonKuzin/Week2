@@ -1,0 +1,11 @@
+﻿A sequence A of characters “(”, “)”, “[”, “]” is called a correct bracket sequence, if one of the following is true:
+The sequence A is empty.
+The ﬁrst character is “(”, and the sequence A contains a character “)”, such that A = (B)C, where B and C are correct bracket sequences.
+The ﬁrst character is “[”, and the sequence A contains a character “]”, such that A = [B]C, where B and C are correct bracket sequences.
+For example, the sequences “(())” and “()[]” are correct, while the sequences “[)” and “((” are not correct.
+ 
+For every line of the input ﬁle determine whether it is a correct bracket sequence.
+Input
+The input ﬁle contains at least one and at most 500 lines. Every line contains at least one and at most 104 characters, and there are only four possible characters: “(”, “)”, “[”, “]”. Every line, including the last one, is terminated by a newline sequence.
+Output
+For every line from the input ﬁle output “YES” if it is a correct bracket sequence, and “NO” otherwise.

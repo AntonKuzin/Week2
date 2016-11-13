@@ -1,0 +1,7 @@
+﻿In postﬁx notation (or reverse Polish notation) an operation is written directly after its operands. For instance, a sum of two numbers, A + B, is written as A B +. The expression B C + D ∗ means (B + C) ∗D, and A B C + D ∗ + means A + (B + C) ∗D. (Here, we denote the multiplication operation as ∗). An advantage of this notation is that it does not require neither parentheses nor agreements on operators’ priority.
+ 
+Given an expression in postﬁx notation, evaluate it.
+Input
+The ﬁrst and only line of the input ﬁle contains an expression in postﬁx notation, which can contain single-digit non-negative numbers and operations +, -, ∗. The line contains at most 106 numbers and/or operations. Every two subsequent entities are separated by a single whitespace. It is guaranteed that the expression is correct and is evaluated to a single number.
+Output
+Output the result of evaluation of this expression. It is guaranteed that the result, as well as any intermediate value, will be less than 231 by the absolute value.

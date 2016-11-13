@@ -1,0 +1,13 @@
+﻿In the winter of 2012, due to vast amount of news about Apocalypsis and the end of the world, one thing came completely unnoticed. It as a breakthrough in the areas of snowmen and cloning: snowmen cloning. You surely know, but we nevertheless remind, that a snowmen consists of zero or more snowballs put one atop another, and cloning is a procedure of creating an identical copy, which is called a clone.
+ 
+In a little city Littlecity, a school teacher A. Schoolteacher bought a snowmen cloning device in the “Snowmen Cloning Device Online Store” online store. Now the schoolgirls, as well as schoolboys, can play, and do indeed play, the following game. At a certain moment of time, some of the children chooses an existing snowman, clones it, and performs one of the actions with the clone:
+adds a new snowball atop, or
+removes the topmost snowball.
+The school teacher A. Schoolteacher has written the sequence of actions performed by the children and now wants to know the total mass of all the created snowmen.
+Input
+The ﬁrst line contains a number N (1 ≤ N ≤ 106), the number of actions performed by the children. The following N lines contain descriptions of these actions. An (i + 1)-st line of the input ﬁle contains a description of the i-th action, which can be one of the following:
+t m: clone the t-th snowman (0 ≤ t < i) and add a snowball with a mass of m (1 ≤ m ≤ 1000) atop it;
+t 0: clone the t-th snowman (0 ≤ t < i) and remove the topmost snowball. It is guaranteed that the t-th snowman is not empty.
+Initially, there is an empty snowman with the number of 0. As a result of the i-th action, a snowman with the number of i is created. All numbers in the input ﬁle are integers.
+Output
+Output the total mass of all the snowmen which were built.
