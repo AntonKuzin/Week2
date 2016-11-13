@@ -1,0 +1,11 @@
+﻿
+Maria had dreamed of visiting all the countries around the globe since the early childhood. And now her dreams come true: she was oﬀered a job in one of the largest airlines of the world. How she is a stewardess. Her duties are to distribute food and drinks to passengers, and to collect empty dishes from them.
+
+Maria collects the used cups in the following way. If a passenger has left some drink in the cup, she puts this cup in a new stack upon her moving table. If the cup is empty, she puts it to the very bottom of the smallest stack (by putting this stack into this empty cup), because it is easier to accidentally drop a bigger stack than a smaller one. She can make a new stack out of an empty cup, only if there are no stacks on the table.
+
+Before starting to collect cups, Maria knows how much drink each passenger left in his cup. Now she wants to know whether she is able to collect all the cups without having any of the stacks dropped. For this, she needs to know the number of cups of the biggest stack. However, there are many passengers, so she cannot evaluate this number on her own. Please help Maria!
+Input
+The ﬁrst line of the input ﬁle contains an integer number N (1 ≤ N ≤ 106) – the number of passengers. The second line contains N integer numbers ai (0 ≤ ai ≤ 100) separated by single whitespaces – the remaining amount of drink in each cup, in the order Maria will collect them. If ai = 0, then the corresponding cup is empty.
+Output
+Output the number of cups in the biggest stack.
+

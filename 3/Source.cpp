@@ -9,12 +9,10 @@ using std::cin;
 using std::cout;
 #endif
 
-
-
 #include <vector>
 #include <string>
-#include <stdlib.h> 
-
+#include <stdlib.h>
+#include <cstdio>
 
 template <class T>
 class Node
@@ -128,8 +126,6 @@ public:
 		delete first;
 	}
 };
-
-#include <cstdio>
 
 int main() {
 
