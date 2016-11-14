@@ -74,18 +74,17 @@ public:
 			{
 				minptr->value++;
 			}
-
-			if (minptr->value == maxptr->value && capacity > 1)
+			else if (minptr->value == maxptr->value)
 			{
-				if (minptr->prev != nullptr && maxptr->value != 1)
+				if (minptr->prev == maxptr)
 				{
-					minptr = minptr->prev;
+					maxptr->value++;
+					minptr = last;
 				}
 				else
 				{
-					minptr->value++;
-					maxptr = minptr;
-					minptr = last;
+					minptr = minptr->prev;
+					Push(value);
 				}
 			}
 		}
