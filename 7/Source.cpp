@@ -77,7 +77,7 @@ public:
 
 			if (minptr->value == maxptr->value && capacity > 1)
 			{
-				if (minptr->prev != nullptr)
+				if (minptr->prev != nullptr && maxptr->value != 1)
 				{
 					minptr = minptr->prev;
 				}
